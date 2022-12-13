@@ -31,7 +31,7 @@ const Login = ({ setAuthenticate }) => {
 				<Form.Group className="mb-3" controlId="formBasicCheckbox">
 					<Form.Check type="checkbox" label="이메일 주소 저장" />
 				</Form.Group>
-				<Button variant="danger" type="submit">
+				<Button variant="dark" type="submit">
 					로그인
 				</Button>
 			</Form>
