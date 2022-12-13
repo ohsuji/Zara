@@ -1,5 +1,6 @@
 $trigger1: '(max-width: 991px)';
 $trigger2: '(max-width: 767px)';
+$trigger3: '(max-width: 575px)';
 
 .hide {
   visibility: hidden;
@@ -96,8 +97,9 @@ nav {
       font-size: 1.2rem;
       cursor: pointer;
       color: #fff;
+      transition: .3s ease-out;
       &:hover {
-        color: var(--color-point);
+        color: var(--color-light);
       }
     }
   }

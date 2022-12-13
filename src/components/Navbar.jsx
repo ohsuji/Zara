@@ -1,6 +1,3 @@
-// 검색 - 키워드 읽어오기
-// 로그인 버튼을 누르면 로그인 페이지가 뜬다
-// nav는 authenticate, setAuthenticate 전달받아 로그인/아웃 표시되도록
 import { React, useState } from 'react'
 import { BiLogIn, BiLogOut, BiSearchAlt } from 'react-icons/bi';
 import { HiOutlineMenuAlt4 } from 'react-icons/hi';
@@ -11,19 +8,19 @@ import './Navbar.scss';
 
 const Navbar = ({ authenticate, setAuthenticate }) => {
   const [sideState, setSideState] = useState('-100%');
-  // sideBar의 left 상태 설정
+
   const navigate = useNavigate();
   const menuList = ['WOMAN','MAN','KIDS','ZARA SRPLS','BEAUTY','ZARA ORIGINS']
   
   const search = (event) => {
-    if(event.key === 'Enter') {  // 엔터키 눌렀을때만 반응
-      let keyword = event.target.value;  // js와 다름 event 안에 value가 들어있음
-      navigate(`/?q=${keyword}`);  // 추가조건은 쿼리로 붙임, 키워드를 읽어와서 url에 넣어줌
+    if(event.key === 'Enter') {  
+      let keyword = event.target.value; 
+      navigate(`/?q=${keyword}`);
     }
   }
 
   const gotoLogin = () => {
-    navigate("/login");  // login 페이지로 이동
+    navigate("/login");
   };
   
   return (
@@ -73,6 +70,3 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
 }
 
 export default Navbar
-
-// $ npm install react-icons --save
-// $ yarn add sass

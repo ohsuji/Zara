@@ -1,0 +1,35 @@
+$trigger1: '(max-width: 991px)';
+$trigger2: '(max-width: 767px)';
+$trigger3: '(max-width: 575px)';
+
+nav {
+  padding-bottom: 0;
+}
+.letter_join {
+  padding: 100px 0 50px;
+  text-align: center;
+  font-weight: bold;
+  @media #{$trigger2} {
+    padding: 50px 0 0;
+  }
+}
+.list_wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+}
+
+.sns_list, .info_list {
+  display: flex;
+}
+.sns_list li, .info_list li {
+  font-size: 13px;
+  color: #aaa;
+  text-align: center;
+  padding: 0 10px;
+}
+.footer_img {
+  width: 100%;
+}

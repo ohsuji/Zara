@@ -1,0 +1,8 @@
+.login-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+}
+.login-area .login-form {
+  width: 640px;
+}/*# sourceMappingURL=Login.css.map */

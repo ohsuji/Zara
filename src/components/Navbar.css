@@ -1,0 +1,119 @@
+.hide {
+  visibility: hidden;
+}
+@media (max-width: 991px) {
+  .hide {
+    visibility: visible;
+  }
+}
+
+.login-btnWrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+.login-btnWrap .login-btn {
+  cursor: pointer;
+  position: relative;
+  top: 55px;
+}
+.login-btnWrap .login-btn svg {
+  font-size: 1.4rem;
+}
+.login-btnWrap .login-btn span {
+  margin-left: 10px;
+  line-height: 1;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 40px;
+}
+h1 .img_wrap {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+nav .menu-list {
+  display: flex;
+}
+nav .menu-list li {
+  padding: 0 10px;
+}
+nav .search {
+  position: absolute;
+  top: 130px;
+  right: 30px;
+  border-bottom: 1px solid black;
+  width: 10vw;
+  white-space: nowrap;
+  padding: 3px;
+}
+nav .search input {
+  border: none;
+  outline: none;
+  width: calc(100% - 30px);
+  margin-left: 10px;
+  font-size: 0.95rem;
+  vertical-align: bottom;
+  padding: 5px;
+}
+@media (max-width: 991px) {
+  nav {
+    visibility: hidden;
+  }
+}
+
+.side_menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 100%;
+  background: var(--color-dark);
+  padding-top: 60px;
+  z-index: 100;
+  transition: 0.4s ease-in;
+}
+.side_menu .closeBtnWrap {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+.side_menu .closeBtnWrap .closeBtn {
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: white;
+}
+.side_menu .side-menu-list {
+  padding-top: 50px;
+}
+.side_menu .side-menu-list li {
+  padding: 10px 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s ease-out;
+}
+.side_menu .side-menu-list li:hover {
+  color: var(--color-light);
+}
+@media (max-width: 767px) {
+  .side_menu {
+    width: 90vw;
+  }
+}
+
+.burger-menu {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  font-size: 1.5rem;
+  color: var(--color-gray);
+  cursor: pointer;
+}/*# sourceMappingURL=Navbar.css.map */
