@@ -58,6 +58,8 @@ const ProductDetail = () => {
 					<Button variant="dark"><BsBagPlus /> 추가</Button>
 					<p>오프라인 매장에 재고 상태 보기</p>
 					<p>배송, 교환 및 반품</p>
+					<div className="detail-fabric">{product?.fabric}</div>
+					<div className="detail-wash">{product?.wash}</div>
 				</Col>
 			</Row>
 		</Container>
