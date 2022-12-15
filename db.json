@@ -5,160 +5,209 @@
 			"img": "https://static.zara.net/photos///2022/I/0/1/p/4360/040/712/3/w/563/4360040712_2_4_1.jpg?ts=1669304970640",
 			"title": "에코 퍼 봄버 재킷",
 			"info": "커프스 마감 긴소매 하이넥 봄버 재킷. 앞면 포켓. 리브드 마감. 앞면 지퍼 여밈.",
+			"color": "크림 | 4360/040",
 			"price": 169000,
 			"choice": true,
 			"new": true,
-			"size": ["XS (KR 44)", "S (KR 55)", "M (KR 66)", "L (KR 77)"]
+			"size": ["XS (KR 44)", "S (KR 55)", "M (KR 66)", "L (KR 77)"],
+			"fabric": "100% 폴리에스터",
+			"wash": "물세탁 금지"
 		},
 		{
 			"id": 1,
 			"img": "https://static.zara.net/photos///2022/I/0/1/p/3739/203/251/2/w/563/3739203251_1_1_1.jpg?ts=1669288780784",
 			"title": "턴업 니트 비니",
 			"info": "<JOIN LIFE>턴업 마감 니트 비니.",
+			"color": "스크래치 화이트 | 3739/203",
 			"price": 29000,
 			"choice": true,
 			"new": true,
-			"size": ["FREE"]
+			"size": ["FREE"],
+			"fabric": "52% 아크릴 · 29% 폴리에스터 ",
+			"wash": "물 온도 최고 30도 손세탁 가능"
 		},
 		{
 			"id": 2,
 			"img": "https://static.zara.net/photos///2022/I/1/1/p/3112/010/800/2/w/563/3112010800_15_1_1.jpg?ts=1665507814799",
 			"title": "트랙솔 청키힐 앵클부츠",
 			"info": "앵클부츠 스타일 청키힐 슈즈.",
+			"color": "블랙 | 3112/010",
 			"price": 89900,
 			"choice": false,
 			"new": true,
-			"size": ["EU 35 (KR 230)", "EU 36 (KR 235)", "EU 37 (KR 240)", "EU 38 (KR 245)", "EU 39 (KR 250)", "EU 40 (KR 255)"]
+			"size": ["EU 35 (KR 230)", "EU 36 (KR 235)", "EU 37 (KR 240)", "EU 38 (KR 245)", "EU 39 (KR 250)", "EU 40 (KR 255)"],
+			"fabric": "65% 폴리우레탄 · 30% 폴리에스터 · 5% 폴리우레탄",
+			"wash": "물세탁 금지"
 		},
 		{
 			"id": 3,
 			"img": "https://static.zara.net/photos///2023/V/0/1/p/4331/002/050/2/w/563/4331002050_1_1_1.jpg?ts=1669807436573",
 			"title": "스트링 콤비 니트 가디건",
 			"info" : "커프스 마감 벌룬 스타일 긴소매 프릴 칼라 가디건.",
+			"color": "단색 | 4331/002",
 			"price": 79900,
 			"choice": true,
 			"new": true,
-			"size": ["S (KR 55)", "M (KR 66)", "L (KR 77)"]
+			"size": ["S (KR 55)", "M (KR 66)", "L (KR 77)"],
+			"fabric": "83% 아크릴 · 11% 폴리아미드 · 6% 폴리에스터",
+			"wash": "물 온도 최고 30도 세탁기 사용 가능, 짧은 탈수 프로그램 "
 		},
 		{
 			"id": 4,
 			"img": "https://static.zara.net/photos///2023/V/0/1/p/9598/005/800/2/w/563/9598005800_2_2_1.jpg?ts=1669821730902",
 			"title": "페이크 퍼 재킷",
 			"info" : "신축성 있는 긴소매 하이넥 재킷. ",
+			"color": "블랙 | 4369/040",
 			"price": 59900,
 			"choice": true,
 			"new": true,
-			"size": ["S (KR 55)", "M (KR 66)", "L (KR 77)", "XL (KR 88)"]
+			"size": ["S (KR 55)", "M (KR 66)", "L (KR 77)", "XL (KR 88)"],
+			"fabric": "100% 폴리에스터",
+			"wash": "물세탁 금지"
 		},
 		{
 			"id": 5,
 			"img": "https://static.zara.net/photos///2022/I/0/1/p/3920/113/800/2/w/563/3920113800_2_2_1.jpg?ts=1669807468942",
 			"title": "울 쇼트 재킷",
 			"info" : "울 혼방 소재 재킷.",
+			"color": "블랙 | 8582/429",
 			"price": 139000,
 			"choice": false,
 			"new": false,
-			"size": ["S (KR 55)", "M (KR 66)", "L (KR 77)", "XL (KR 88)"]
+			"size": ["S (KR 55)", "M (KR 66)", "L (KR 77)", "XL (KR 88)"],
+			"fabric": "38% 아크릴 · 37% 폴리에스터 · 20% 나일론 · 5% 모직",
+			"wash": "드라이클리닝 불가"
 		},
 		{
 			"id": 6,
 			"img": "https://static.zara.net/photos///2022/I/0/1/p/2142/109/809/13/w/563/2142109809_1_1_1.jpg?ts=1668696803682",
 			"title": "소프트 니트 스웨터",
 			"info" : "이상 재생 폴리에스터 사용.",
+			"color": "미디움 그레이 | 2142/109",
 			"price": 57000,
 			"choice": false,
 			"new": false,
-			"size": ["S (KR 55)", "M (KR 66)", "L (KR 77)", "XL (KR 88)"]
+			"size": ["S (KR 55)", "M (KR 66)", "L (KR 77)", "XL (KR 88)"],
+			"fabric": "60% 아크릴 · 32% 폴리에스터 · 5% 모직 · 3% 엘라스탄",
+			"wash": "물 온도 최고 30도 세탁기 사용 가능, 짧은 탈수 프로그램"
 		},
 		{
 			"id": 7,
 			"img": "https://static.zara.net/photos///2022/I/0/1/p/2893/137/809/12/w/563/2893137809_1_1_1.jpg?ts=1668696784262",
 			"title": "리브드 마감 크롭 니트 가디건",
 			"info" : "브이넥 긴소매 가디건. 리브드 마감.",
+			"color": "미디움 그레이 | 2893/137",
 			"price": 55000,
 			"choice": false,
 			"new": false,
-			"size": ["S (KR 55)", "M (KR 66)", "L (KR 77)", "XL (KR 88)"]
+			"size": ["S (KR 55)", "M (KR 66)", "L (KR 77)", "XL (KR 88)"],
+			"fabric": "51% 아크릴 · 37% 나일론 · 7% 모직 · 5% 엘라스탄",
+			"wash": "물 온도 최고 30도 손세탁 가능"
 		},
 		{
 			"id": 8,
 			"img": "https://static.zara.net/photos///2022/I/0/1/p/6873/117/330/2/w/563/6873117330_2_1_1.jpg?ts=1668602570149",
 			"title": "스트라이프 니트 스웨터",
 			"info" : "긴소매 하이넥 스웨터.",
+			"color": "멀티컬러 | 6873/117",
 			"price": 59000,
 			"choice": false,
 			"new": false,
-			"size": ["S (KR 55)", "M (KR 66)", "L (KR 77)"]
+			"size": ["S (KR 55)", "M (KR 66)", "L (KR 77)"],
+			"fabric": "62% 아크릴 · 38% 폴리아미드",
+			"wash": "표백제 사용 금지"
 		},
 		{
 			"id": 9,
 			"img": "https://static.zara.net/photos///2022/I/0/1/p/9598/271/104/2/w/563/9598271104_2_1_1.jpg?ts=1669366984147",
 			"title": "컬러 블록 니트 스웨터",
 			"info" : "긴소매 라운드넥 스웨터.",
+			"color": "스트라이프 | 9598/271",
 			"price": 59900,
 			"choice": false,
 			"new": false,
-			"size": ["S (KR 55)", "M (KR 66)", "L (KR 77)"]
+			"size": ["S (KR 55)", "M (KR 66)", "L (KR 77)"],
+			"fabric": "85% 폴리에스터 · 7% 모직 · 5% 알파카 · 3% 엘라스탄",
+			"wash": "물 온도 최고 30도 세탁기 사용 가능, 짧은 탈수 프로그램"
 		},
 		{
 			"id": 10,
 			"img": "https://static.zara.net/photos///2022/I/0/1/p/7385/524/922/12/w/563/7385524922_1_1_1.jpg?ts=1669975924781",
 			"title": "플리트 스커트 팬츠",
 			"info" : "하이웨이스트 스커트 팬츠. 플리츠 디테일. ",
+			"color": "블랙 | 8338/501",
 			"price": 55000,
 			"choice": true,
 			"new": false,
-			"size": ["XS (KR 44)", "S (KR 55)", "M (KR 66)", "L (KR 77)"]
+			"size": ["XS (KR 44)", "S (KR 55)", "M (KR 66)", "L (KR 77)"],
+			"fabric": "67% 폴리에스터 · 29% 비스코스 · 4% 엘라스탄",
+			"wash": "드라이클리닝 불가 | 건조기 사용 금지"
 		},
 		{
 			"id": 11,
 			"img": "https://static.zara.net/photos///2023/V/1/1/p/3144/010/001/2/w/563/3144010001_1_1_1.jpg?ts=1668598840672",
 			"title": "키튼힐 앵클부츠",
 			"info" : "앵클부츠 스타일 키튼힐 슈즈.",
+			"color": "화이트 | 3144/010",
 			"price": 59900,
 			"choice": true,
 			"new": false,
-			"size": ["EU 35 (KR 230)", "EU 36 (KR 235)", "EU 37 (KR 240)", "EU 38 (KR 245)", "EU 39 (KR 250)", "EU 40 (KR 255)"]
+			"size": ["EU 35 (KR 230)", "EU 36 (KR 235)", "EU 37 (KR 240)", "EU 38 (KR 245)", "EU 39 (KR 250)", "EU 40 (KR 255)"],
+			"fabric": "100% 폴리우레탄",
+			"wash": "물세탁 금지 | 마른 면으로 닦으십시오."
 		},
 		{
 			"id": 12,
 			"img": "https://static.zara.net/photos///2022/I/1/1/p/3106/810/040/2/w/563/3106810040_2_1_1.jpg?ts=1660208495849",
 			"title": "키튼힐 앵클부츠",
 			"info" : "앵클부츠 스타일 키튼힐 슈즈.",
+			"color": "블랙 | 3106/810",
 			"price": 59900,
 			"choice": false,
 			"new": false,
-			"size": ["EU 35 (KR 230)", "EU 36 (KR 235)", "EU 37 (KR 240)", "EU 38 (KR 245)", "EU 39 (KR 250)", "EU 40 (KR 255)"]
+			"size": ["EU 35 (KR 230)", "EU 36 (KR 235)", "EU 37 (KR 240)", "EU 38 (KR 245)", "EU 39 (KR 250)", "EU 40 (KR 255)"],
+			"fabric": "100% 폴리우레탄",
+			"wash": "물세탁 금지 | 마른 면으로 닦으십시오."
 		},
 		{
 			"id": 13,
 			"img": "https://static.zara.net/photos///2022/I/0/1/p/2969/257/700/12/w/563/2969257700_1_1_1.jpg?ts=1668762592208",
 			"title": "슬링더블 페이스드 크롭 점퍼",
 			"info" : "앞면 포켓. 앞면 메탈 지퍼 여밈.",
+			"color": "브라운 | 2969/257",
 			"price": 169000,
 			"choice": true,
 			"new": false,
-			"size": ["XS (KR 44)", "S (KR 55)", "M (KR 66)", "L (KR 77)"]
+			"size": ["XS (KR 44)", "S (KR 55)", "M (KR 66)", "L (KR 77)"],
+			"fabric": "100% 폴리에스터",
+			"wash": "물 온도 최고 30도 세탁기 사용 가능, 짧은 탈수 프로그램"
 		},
 		{
 			"id": 14,
 			"img": "https://static.zara.net/photos///2022/I/0/1/p/3991/134/802/2/w/563/3991134802_2_2_1.jpg?ts=1668418358277",
 			"title": "자카드 니트 재킷",
 			"info" : "리본이 달린 커프스 마감 긴소매 라펠 칼라 재킷.",
+			"color": "그레이 | 3991/134",
 			"price": 59000,
 			"choice": false,
 			"new": false,
-			"size": ["S (KR 55)", "M (KR 66)", "L (KR 77)"]
+			"size": ["S (KR 55)", "M (KR 66)", "L (KR 77)"],
+			"fabric": "80% 폴리에스터 · 13% 아크릴 · 4% 모직 · 3% 엘라스탄",
+			"wash": "물 온도 최고 30도 세탁기 사용 가능, 짧은 탈수 프로그램"
 		},
 		{
 			"id": 15,
 			"img": "https://static.zara.net/photos///2022/I/1/1/p/6298/010/040/2/w/563/6298010040_2_1_1.jpg?ts=1662730293222",
 			"title": "퀼티드 미니 크로스백",
 			"info" : "퀼팅 마감 미니 크로스백.",
+			"color": "블랙 | 6301/010",
+			"width" : "세로 x 가로 x 폭: 13 x 21 x 4cm",
 			"price": 59000,
 			"choice": false,
 			"new": false,
-			"size": ["ONE"]
+			"size": ["ONE"],
+			"fabric": "100% 폴리우레탄",
+			"wash": "물세탁 금지"
 		}
 	]
 }
