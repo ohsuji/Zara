@@ -8,9 +8,9 @@ const Login = ({ setAuthenticate }) => {
 	const navigate = useNavigate();
 
 	const loginUser = (e) => {
-		e.preventDefault();  // 새로고침 해주는걸 막아줌
-		setAuthenticate(true); // 로그인이 되게 바꿔줌
-		navigate('/'); // 첫페이지로 이동
+		e.preventDefault(); 
+		setAuthenticate(true);
+		navigate('/'); 
 	}
 
 	return (

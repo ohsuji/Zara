@@ -1,6 +1,6 @@
-$trigger1: '(max-width: 991px)';
-$trigger2: '(max-width: 767px)';
-$trigger3: '(max-width: 575px)';
+$wideWidth: "(min-width:1400px)";
+$middelWidth: '(max-width: 767px)';
+$smallWidth: "(max-width:575px)";
 
 nav {
   padding-bottom: 0;
@@ -9,7 +9,7 @@ nav {
   padding: 100px 0 50px;
   text-align: center;
   font-weight: bold;
-  @media #{$trigger2} {
+  @media #{$middelWidth} {
     padding: 50px 0 0;
   }
 }
@@ -30,6 +30,11 @@ nav {
   text-align: center;
   padding: 0 10px;
 }
-.footer_img {
-  width: 100%;
+.img_wrap {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  .footer_img {
+    max-width: 100%;
+  }
 }

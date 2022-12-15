@@ -35,8 +35,9 @@ const ProductDetail = () => {
 						<div className="detail-title">{product?.title}</div>
 						<span className="like" onClick={likeToggle}>
 							{heartFill ? <BsSuitHeartFill className="heartFill" /> : <BsSuitHeart />}
-							</span>
+						</span>
 					</div>
+					<div className="detail-info">{product?.info}</div>
 					<div className="detail-price">₩{product?.price}</div>
 					{product?.new === true ? <div className="new">NEW</div> : ""}
 					{product?.choice === true ? <div className="choice">Weakly Best Seller</div> : ""}
@@ -54,8 +55,11 @@ const ProductDetail = () => {
 						</Dropdown>
 					</div>
 					<Button variant="dark"><BsBagPlus /> 추가</Button>
+					<p>오프라인 매장에 재고 상태 보기</p>
+					<p>배송, 교환 및 반품</p>
 				</Col>
 			</Row>
+
 		</Container>
 	);
 };

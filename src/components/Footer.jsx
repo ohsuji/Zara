@@ -19,7 +19,9 @@ const Footer = ({ authenticate, setAuthenticate }) => {
           {infoList.map((info) => (<li>{info}</li>))}
         </ul>
       </nav> 
-      <img src="https://i.vimeocdn.com/channel/477437_980?mh=250" alt="하단배너" className="footer_img"/> 
+      <div className="img_wrap">
+        <img src="https://i.vimeocdn.com/channel/477437" alt="하단배너" className="footer_img"/> 
+      </div>
     </div> 
   )
 }
