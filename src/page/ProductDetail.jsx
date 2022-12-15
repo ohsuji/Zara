@@ -39,6 +39,7 @@ const ProductDetail = () => {
 					</div>
 					<div className="detail-info">{product?.info}</div>
 					<div className="detail-color">{product?.color}</div>
+					<div className="detail-color">{product?.width}</div>
 					<div className="detail-price">₩{product?.price}</div>
 					{product?.new === true ? <div className="new">NEW</div> : ""}
 					{product?.choice === true ? <div className="choice">Weakly Best Seller</div> : ""}
