@@ -37,7 +37,6 @@ const ProductDetail = () => {
 							{heartFill ? <BsSuitHeartFill className="heartFill" /> : <BsSuitHeart />}
 						</span>
 					</div>
-					<div className="detail-info">{product?.info}</div>
 					<div className="detail-price">₩{product?.price}</div>
 					{product?.new === true ? <div className="new">NEW</div> : ""}
 					{product?.choice === true ? <div className="choice">Weakly Best Seller</div> : ""}
@@ -59,7 +58,6 @@ const ProductDetail = () => {
 					<p>배송, 교환 및 반품</p>
 				</Col>
 			</Row>
-
 		</Container>
 	);
 };

@@ -5,7 +5,6 @@ import { VscChromeClose } from 'react-icons/vsc';
 import { Link, useNavigate } from "react-router-dom";
 import './Navbar.scss';
 
-
 const Navbar = ({ authenticate, setAuthenticate }) => {
   const [sideState, setSideState] = useState('-100%');
 
