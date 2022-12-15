@@ -50,7 +50,7 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
       <h1>
         <Link to="/">
           <div className="img_wrap">
-            <img width={90} src="img/logo.png" alt="ZARA" />
+            <img width={120} src="img/logo.png" alt="ZARA" />
           </div>
         </Link>  
       </h1>
