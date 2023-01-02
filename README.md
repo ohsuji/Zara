@@ -2,7 +2,7 @@
 * 기간 : 2022.12
 
 ## ZARA ?
-<img src="../img/logo.png" width="120" >
+<img src="./public/img/logo.png" width="120">
 
 SPA 브랜드 ZARA 쇼핑몰을 React를 사용하여 웹 제작
 
