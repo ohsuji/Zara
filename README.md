@@ -2,17 +2,17 @@
 * 기간 : 2022.12
 
 ## 매표소란?
-<img src="./img/applogo1.png" width="50" > <img src="./img/mps_logo.png" width="50"> <img src="./img/textlog.jpg" width="170" >
+<img src="img/logo.png" width="120" >
 
-문화 공연 예매 플랫폼의 하나로 연극, 뮤지컬, 콘서트, 전시회 등을 예매할 수 있는 애플리케이션입니다.
+SPA 브랜드 ZARA 쇼핑몰 웹
 
 ## 📍 Overview
 
-사용자의 이목을 끄는 것과 동시에 더욱 편하게 서비스를 이용할 수 있도록 리디자인하여 개발하였습니다.
+* <br>
 
 ## 🙋‍♀️🙋‍♂️ Target 
 
-* 연극, 뮤지컬, 전시회 등 문화 공연을 즐기고 공연 예매를 하고자  사람 <br>
+* <br>
 
 ## 💥 Problem
 
@@ -40,4 +40,4 @@
 <br>
 
 ## 🚀 Skills 
-<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jQuery&logoColor=white"> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white"> <img src="https://img.shields.io/badge/Adobe Photoshop-31A8FF?style=for-the-badge&logo=Adobe Photoshop&logoColor=white"> <img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=PWA&logoColor=white">
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black">
