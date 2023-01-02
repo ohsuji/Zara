@@ -62,6 +62,9 @@ const ProductDetail = () => {
 					<div className="detail-fabric"><span>소재</span>{product?.fabric}</div>
 					<div className="detail-wash"><span>세탁</span>{product?.wash}</div>
 				</Col>
+				<Col xs={12} sm={7}>
+					<img src={product?.img1} className="detail-img" />
+				</Col>
 			</Row>
 		</Container>
 	);
