@@ -145,5 +145,8 @@ h2 {
     font-size: 0.8rem;
     color: #aaa;
     cursor: pointer;
+    &:hover {
+      color: var(--color-gray);
+    }
   }
 }
