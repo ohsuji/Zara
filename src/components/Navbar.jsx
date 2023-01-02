@@ -10,6 +10,7 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
 
   const navigate = useNavigate();
   const menuList = ['WOMAN','MAN','KIDS','ZARA SRPLS','BEAUTY','ZARA ORIGINS']
+  const helpList = ['배송 및 주문 상태','|', '교환 및 환불','|', '결제', '|','매장']
   
   const search = (event) => {
     if(event.key === 'Enter') {  
@@ -25,16 +26,29 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
   return (
     <div>
       <div className="side_menu" style={{left: sideState}}>
-        <div className="closeBtnWrap">
-          <VscChromeClose className="closeBtn" onClick={() => {setSideState('-100%'); }} />
+        <div className="side_top">
+          <h2>
+            <Link to="/">
+              <div className="img_wrap">
+                <img width={120} src="img/logo.png" alt="ZARA" />
+              </div>
+            </Link>  
+          </h2>
+          <div className="closeBtnWrap">
+            <VscChromeClose className="closeBtn" onClick={() => {setSideState('-100%'); }} />
+          </div>
         </div>
         <ul className="side-menu-list">
           {menuList.map((menu) => (
           <li>{menu}</li>
           ))}
         </ul>
+        <ul className="side-help-list">
+          {helpList.map((menu) => (
+          <li>{menu}</li>
+          ))}
+        </ul>     
       </div>
-
       <div className="burger-menu hide">
         <HiOutlineMenuAlt4 onClick={() => {setSideState('0'); }} />
       </div>

@@ -1,7 +1,6 @@
 $trigger3: '(max-width: 575px)';
 
-.main_img {
-  width: 100%;
+.slide_wrap {
   @media #{$trigger3} {
     display: none;
   }
