@@ -70,3 +70,28 @@ Button {
   font-size: 0.8rem;
   margin-right: 10px;
 }
+
+
+.accordion {
+  margin: 0 auto;
+  margin-top: 80px;
+  img {
+    width: 80%;
+  };
+  
+}
+.accordion-header {
+  padding-left: 0px;
+}
+.accordion-button:focus {
+  border-color: black;
+}
+
+.accordion-button:not(.collapsed) {
+  background: black;
+  color: #fff;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: none;
+  color: #fff;
+}

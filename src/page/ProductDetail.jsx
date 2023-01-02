@@ -1,6 +1,6 @@
 // useParnas - 현재 경로의 파라메터 들이 저장되어 있음
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col, Dropdown, Button } from "react-bootstrap";
+import { Accordion, Container, Row, Col, Dropdown, Button } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import "./ProductDetail.scss";
 import { BsSuitHeartFill, BsSuitHeart, BsBagPlus } from 'react-icons/bs';
@@ -62,10 +62,18 @@ const ProductDetail = () => {
 					<div className="detail-fabric"><span>소재</span>{product?.fabric}</div>
 					<div className="detail-wash"><span>세탁</span>{product?.wash}</div>
 				</Col>
-				<Col xs={12} sm={7}>
-					<img src={product?.img1} className="detail-img" />
-				</Col>
 			</Row>
+			<Accordion>
+					<Accordion.Item eventKey="0">
+						<Accordion.Header>더 보기</Accordion.Header>
+						<Accordion.Body>
+							<Col xs={12} sm={7}>
+								<img src={product?.img1} className="detail-img" />
+								<img src={product?.img2} className="detail-img" />
+							</Col>
+						</Accordion.Body>
+					</Accordion.Item>
+				</Accordion>
 		</Container>
 	);
 };
