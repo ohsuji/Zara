@@ -1,39 +1,16 @@
-# PROJECT | ZARA ( React / Web Develop )
-* 기간 : 2022.12
+# 🐰 PROJECT
 
-## ZARA ?
 <img src="./public/img/logo.png" width="120">
 
-SPA 브랜드 ZARA 쇼핑몰을 React를 사용하여 웹 제작
+- Title : 해외 브랜드 ZARA 쇼핑몰
 
-## 📍 Overview
+- 기간 : 2022.12
 
-* <br>
+- React Bootstrap 사용한 반응형
+- `db.json 파일` 생성 → best seller/ new 배지, 제품 이미지, 상세 페이지에서 상품 상세정보 로드
+- 로그인 후 상세페이지 보이게 기능 구현
 
-## 🙋‍♀️🙋‍♂️ Target 
+<br>
 
-* <br>
-
-## 💥 Problem
-
-1. <br>
-
-
-## ⭐ Solutions
-1. <br>
-
-
-***
-
-<!-- ## ⏰ Timeline 
-| Week | coding | git | 작업 내용 |
-| ------ | -- | -- |----------- |
-| 1주차 |  |  | 디자인 콘셉트 잡기 / 와이어 프레임, 프로토타입 프레임 제작 (Figma) |
-| 2주차 | ☑️ | ☑️ | Markup (홈, 예매, 피드, 메뉴) / Sass 홈페이지 스타일 구현 |
-| 3주차 | ☑️ | ☑️ | Javascript 기능 구현 |
-| 4주차 |  |  | 보고서 제작 / 발표 |
-
-<br> -->
-
-## 🚀 Skills 
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black">
+## 📚 Skills 
+<img src="https://img.shields.io/badge/React-61dafb?style=for-the-badge&logo=React&logoColor=black"> <img src="https://img.shields.io/badge/Bootstrap-7952b3?style=for-the-badge&logo=Bootstrap&logoColor=black"> <img src="https://img.shields.io/badge/Netlify-eeeeee?style=for-the-badge&logo=Netlify&logoColor=black">
