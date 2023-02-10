@@ -1,12 +1,12 @@
 # 🐰 PROJECT 
 
 - Title : 해외 브랜드 ZARA 쇼핑몰
-
-- 기간 : 2022.12
-
-## URL (https://zara1.netlify.app/)
-
 - React Bootstrap 사용한 반응형
+
+<br>
+
+## 📎 URL (https://zara1.netlify.app/)
+
 - `db.json 파일` 생성 → best seller/ new 배지, 제품 이미지, 상세 페이지에서 상품 상세정보 로드
 - 상세 페이지 좋아요 `토글 버튼` 구현
 <img width="539" alt="image" src="https://user-images.githubusercontent.com/110226420/218107195-a65c0026-7009-4659-98ae-f0b21ea4b314.png">
