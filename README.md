@@ -5,7 +5,7 @@
 
 <br>
 
-## 📎 URL (https://zara1.netlify.app/)
+## 📎 DEMO (https://zara1.netlify.app/)
 
 - `db.json 파일` 생성 → best seller/ new 배지, 제품 이미지, 상세 페이지에서 상품 상세정보 로드
 - 상세 페이지 좋아요 `토글 버튼` 구현
